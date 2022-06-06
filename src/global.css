@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(208, 211, 212);
+}
+
+._HeaderSection {
+  width: 100%;
+  height: 50px;
+  padding: 20px 20px;
+  background-color: purple;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._HeaderSection article {
+  width: 98%;
+  /* background-color: rgb(147, 90, 221); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+._HeaderSection h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: larger;
+}
+
+._formSection {
+  display: flex;
+  width: 100%;
+  height: 312px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+._formSection article {
+  display: flex;
+  height: 58px;
+  width: 80%;
+  margin: 5px auto;
+  background-color: rgb(208, 211, 212);
+  align-items: center;
+  height: 20vh;
+  justify-content: center;
+}
+
+._formSection label {
+  padding: 20px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+._formSection input {
+  padding: 5px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  width: 90vh;
+  padding: 10px 20px;
+}
+._formSection button {
+  padding: 10px 25px;
+  margin: 0 10px;
+  border-radius: 10px 5px 10px 5px;
+  border: 1px;
+  background-color: rgb(166, 102, 182);
+  color: #fff;
+  box-shadow: 3px 4px 4px 0px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+._displayContent{
+  color: #111;
+  display: flex;
+  width: 50%;
+  margin: 0px auto;
+  background-color: rgb(195 202 205);
+  /* align-items: center; */
+  height: 90vh;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+}
+._displayContent ul{
+list-style: none;
+text-align: center;
+color: #fff;
+background-color: rgb(128 0 128 / 33%);
+width:50%;
+margin:4px auto;
+border-bottom: 1px solid white;
+}
+
+._displayContent li{
+  width: 75%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+._displayContent li > i:nth-last-child(2){
+  margin: 0 50px;
+  color: red;
+}
+
+._displayContent li > i:nth-last-child(1){
+  margin: 0 5px;
+  color: #111;
+}
